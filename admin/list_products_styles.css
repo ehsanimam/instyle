@@ -1,0 +1,49 @@
+ul.view_tabs {
+	font-family: Verdana; 
+	color: #660000; 
+	text-decoration: none; 
+	font-weight: normal; 
+	font-size: 11px;
+	list-style: none;
+	padding: 3px 5px 5px 5px;
+	margin: 5px 0;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
+ul.view_tabs li {
+	display: inline;
+}
+
+ul.view_tabs li a {
+	padding: 5px 4px;
+	border: 1px solid black;
+	background-color: #DCDCDC;
+	color: #585858;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+ul.view_tabs a:hover {
+	background: white;
+	color: black;
+}
+
+ul.view_tabs li.selected a {
+	border-bottom: 1px solid white;
+	background: white;
+	color: black;
+}
+
+#content_wrapper {
+	position: relative;
+}
+
+.content {
+	position: relative;
+	padding-bottom: 20px;
+}
+
+select#designer, select#cat, select#subcat, select#subsubcat {
+	width: 300px;
+}

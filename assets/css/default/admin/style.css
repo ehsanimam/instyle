@@ -1,0 +1,96 @@
+/* default resets */
+html,body,div,span,applet,object,iframe, h1,h2,h3,h4,h5,h6,p,blockquote,pre, a,abbr,acronym,address,big,cite,code, del,dfn,em,font,img,ins,kbd,q,s,samp, small,strike,strong,sub,sup,tt,var, dl,dt,dd,ol,ul,li, fieldset,form,label,legend, table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;vertical-align:baseline;}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url('../../../../images/default/admin/instyle_admin_panel_header_bg.gif');
+	background-repeat: repeat-x;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size: 14px;
+}
+
+body a, body a:visited {
+	text-decoration: none;
+}
+body a:hover {
+	text-decoration: underline;
+}
+
+.fLeft {float:left;}
+.fRight {float:right;}
+.clearer {clear:both;}
+.center {text-align:center;}
+
+/* Begin CONTAINER */
+#container {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+	#header {
+		color: white;
+		height: 130px;
+	}
+	
+		#header_sec1 {
+			position: relative;
+			height: 50px;
+			font-size: 12px;
+			border-left: 1px solid red;
+		}
+
+			#global_navs {
+				position: relative;
+				float: right;
+				height: 50px;
+				background-image: url('../../../../images/default/admin/global_navs_bg.gif');
+			}
+				#global_navs .glaval_navs_text_pos {
+					position: relative;
+					color: #d5d5d5;
+					top: -20px;
+				}
+			
+		#header_sec2 {
+			position: relative;
+			height: 50px;
+			border-left: 1px solid green;
+		}
+
+			#header_search_box {
+				float: right;
+				position: relative;
+				top: 10px;
+				border-left: 1px solid red;
+			}
+			
+			#logo_placeholder {
+				height: 50px;
+			}
+				#logo_placeholder img {
+					position: relative;
+				}
+
+		#header_sec3 {
+			position: relative;
+			height: 30px;
+		}
+
+			#global_menus {
+				float: right;
+				height: 30px;
+				border-left: 1px solid blue;
+			}
+			
+			#menu_items ul {
+				height: 30px;
+				list-style-type: none;
+			}
+				#menu_items ul li {
+					height: 30px;
+					display: inline-block;
+					border-left: 1px solid white;
+				}
+

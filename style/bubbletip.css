@@ -1,0 +1,112 @@
+/*******************************/
+/********* bubbletip ***********/
+/*******************************/
+.bubbletip
+{
+	position: absolute;
+	z-index: 50;
+	border-collapse: collapse;
+}
+.bubbletip td.bt-topleft
+{
+	background: transparent url(../images/bubble2/bubbletip-TL-corner.png) no-repeat scroll 0px 0px;
+	height: 12px;
+	width: 25px;
+}
+.bubbletip td.bt-top
+{
+	background: transparent url(../images/bubble2/bubbletip-T.png) repeat-x scroll 0px 0px;
+	height: 12px;
+}
+.bubbletip td.bt-topright
+{
+	background: transparent url(../images/bubble2/bubbletip-TR-corner.png) no-repeat scroll 0px 0px;
+	height: 12px;
+	width: 20px;
+}
+
+
+
+.bubbletip td.bt-left-tail div.bt-left, .bubbletip td.bt-left
+{
+	background: transparent url(../images/bubble2/bubbletip-L-tail.png) repeat-y scroll 0px 0px;
+	width: 20px;
+}
+.bubbletip td.bt-left-tail div.bt-left-tail
+{
+	background: transparent url(../images/bubble2/bubbletip-BL-corner.png) no-repeat scroll 0px 0px;
+	width: 20px;
+	height: 33px;
+}
+.bubbletip td.bt-right-tail div.bt-right, .bubbletip td.bt-right
+{
+	background: transparent url(../images/bubble2/bubbletip-R.png) repeat-y scroll 0px 0px;
+	width: 20px;
+}
+.bubbletip td.bt-right-tail div.bt-right-tail
+{
+	background: transparent url(../images/bubble2/bubbletip-R.png) no-repeat scroll 0px 0px;
+	width: 20px;
+	height: 10px;
+}
+
+
+
+.bubbletip td.bt-bottomleft
+{
+	background: transparent url(../images/bubble2/bubbletip-BL-corner.png) no-repeat scroll 0px 0px;
+	height: 20px;
+	width: 25px;
+}
+.bubbletip td.bt-bottom
+{
+	background: transparent url(../images/bubble2/bubbletip-B.png) repeat-x scroll 0px 0px;
+	height: 20px;
+}
+.bubbletip td.bt-bottomright
+{
+	background: transparent url(../images/bubble2/bubbletip-BR-corner.png) no-repeat scroll 0px 0px;
+	height: 20px;
+	width: 20px;
+}
+.bubbletip table.bt-top, .bubbletip table.bt-bottom
+{
+	width: 100%;
+}
+.bubbletip table.bt-top th
+{
+	width: 50%;
+	background: transparent url(../images/bubble2/bubbletip-T-B.png) repeat-x scroll 0px 0px;
+}
+.bubbletip table.bt-bottom th
+{
+	width: 50%;
+	background: transparent url(../images/bubble2/bubbletip-B.png) repeat-x scroll 0px 0px;
+}
+.bubbletip table.bt-top td div
+{
+	background: transparent url(../images/bubble2/bubbletip.png) no-repeat scroll -33px 0px;
+	width: 20px;
+	height: 33px;
+}
+.bubbletip table.bt-bottom td div
+{
+	background: transparent url(../images/bubble2/bubbletip-B.png) repeat-x scroll 0px 0px;
+	width: 20px;
+	height: 20px;
+}
+.bubbletip td.bt-content
+{
+    background-color: #dad9d9;
+	/*background-color: #fff; */
+	vertical-align: middle;
+	text-align:justify;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+.tip {
+	text-align:justify;
+	font-family:Arial,Helvetica,sans-serif;
+}
+/*******************************/
+
